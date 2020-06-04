@@ -133,3 +133,77 @@ a {
 .product__arrow {
     margin-left: 20px;
 }
+
+.text_block_center {
+    width: 750px;
+    display: flex;
+    margin: 32px auto;
+    color: #222222;
+    text-align: center;
+}
+
+.proj_big {
+    width: 1140px;
+    height: 480px;
+}
+
+.proj_big_back {
+    background-image: url(img/proj_big.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.proj_big_title {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-right: 64px;
+    padding-top: 64px;
+}
+
+.proj_small {
+    width: 554px;
+    height: 417px;
+    background: linear-gradient(316.94deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    border-radius: 10px;
+
+}
+
+.container_proj_small {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.proj_1_back {
+    background-image: url(img/sparklite_app.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.proj_2_back {
+    background-image: url(img/car_app.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.proj_small_title {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-left: 32px;
+    padding-top: 32px;
+    text-align: left;
+}
+
+.footer {
+    margin-top: 112px;
+    width: 100%;
+    background: #316099;
+}
