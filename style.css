@@ -77,6 +77,10 @@ a {
     display: inline-block;
 }
 
+.button:hover {
+    background-color: #316099;
+}
+
 .heading {
     font-weight: 300;
     font-size: 36px;
@@ -111,6 +115,8 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+
 
 .product__link {
     font-size: 14px;
@@ -169,6 +175,27 @@ a {
     height: 417px;
     background: linear-gradient(316.94deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
     border-radius: 10px;
+}
+
+@media (max-width: 1200px){
+    .product-box {
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 448px;
+    }
+
+    .product {
+        margin: 16px auto;
+    }
+
+    .proj_big {
+        width: 705px;
+
+    }
+    .proj_small {
+        width: 336px;
+    }
 
 }
 
@@ -206,4 +233,88 @@ a {
     margin-top: 112px;
     width: 100%;
     background: #316099;
+    
+}
+
+.footer_container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer_hr {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 64px;
+}
+
+.footer_header {
+    width: 340px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-left: 113px;
+    margin-top: 91px;
+}
+
+.footer_left {
+    width: 683px;  
+}
+
+.footer_right {
+    width: 683px;
+    text-align: right;
+}
+
+.footer_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 32px;
+    margin-left: 113px;
+    margin-bottom: 96px;
+    width: 495px;
+}
+
+.button_footer {
+    margin-top: 165px;
+    margin-right: 114px;
+    
+}
+
+.footer_contacts {
+
+    margin-top: 64px;
+    margin-left: 113px;
+    width: 360px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.copyright {
+    margin-left: 113px;
+    margin-top: 64px;
+    padding-bottom: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
